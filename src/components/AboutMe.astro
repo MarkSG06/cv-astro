@@ -1,0 +1,145 @@
+---
+
+---
+
+<section id="sobre" class="about">
+	<div class="title">
+		<h1>Sobre Mí</h1>
+		<div class="line"></div>
+	</div>
+
+	<div class="description">
+		<p>
+			Soy un desarrollador web con experiencia en tecnologías modernas
+			como <strong>Astro</strong> y <strong>Node.js</strong>. Me
+			especializo en crear sitios web responsive, rápidos y visualmente
+			atractivos que ofrecen una excelente experiencia de usuario.
+		</p>
+	</div>
+
+	<section id="habilidades" class="hability">
+		<div class="title">
+			<h1>Habilidades</h1>
+			<div class="line"></div>
+		</div>
+
+		<div class="descripcion">
+			<p>
+				Domino un amplio conjunto de tecnologías modernas para el
+				desarrollo web.
+			</p>
+		</div>
+
+		<section class="skills">
+			<div class="skill"><span>HTML</span></div>
+			<div class="skill"><span>CSS</span></div>
+			<div class="skill"><span>JavaScript</span></div>
+			<div class="skill"><span>Node.js</span></div>
+			<div class="skill"><span>Astro</span></div>
+			<div class="skill"><span>MongoDB</span></div>
+			<div class="skill"><span>MySQL</span></div>
+			<div class="skill"><span>XML</span></div>
+			<div class="skill"><span>API-REST</span></div>
+			<div class="skill"><span>Postman</span></div>
+			<div class="skill"><span>WordPress</span></div>
+		</section>
+	</section>
+</section>
+
+<style>
+	* {
+		font-family: "Exo", sans-serif;
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+	.about {
+		padding: 6rem 2rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 2rem;
+		min-height: 100vh;
+		background: linear-gradient(180deg, #f2f7fd, #e8effa);
+	}
+
+	.title {
+		text-align: center;
+	}
+	.title h1 {
+		font-size: 2.4rem;
+		font-weight: 700;
+		color: #101828;
+	}
+	.line {
+		margin: 1rem auto 0;
+		background-color: #b24bab;
+		height: 4px;
+		width: 80px;
+		border-radius: 10px;
+	}
+
+	.description {
+		max-width: 700px;
+		text-align: center;
+	}
+	.description p {
+		font-size: 1.1rem;
+		line-height: 1.8rem;
+		color: #3c4658;
+	}
+
+	.hability {
+		margin-top: 10rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1.5rem;
+	}
+	.descripcion p {
+		font-size: 1rem;
+		text-align: center;
+		line-height: 1.6rem;
+		color: #4a5568;
+	}
+
+	.skills {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1rem;
+		margin-top: 2rem;
+	}
+
+	.skill {
+		padding: 0.7rem 1.6rem;
+		border-radius: 9999px;
+		background: linear-gradient(135deg, #b24bab, #6a00f4);
+		color: #fff;
+		font-weight: 600;
+		font-size: 0.95rem;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+		cursor: default;
+		transition: all 0.3s ease;
+		letter-spacing: 0.5px;
+	}
+	.skill:hover {
+		transform: translateY(-4px) scale(1.05);
+		box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+	}
+
+	@media (max-width: 768px) {
+		.title h1 {
+			font-size: 2rem;
+		}
+		.description p {
+			font-size: 1rem;
+		}
+		.hability {
+			margin-top: 4rem;
+		}
+	}
+</style>
+
+<script></script>
