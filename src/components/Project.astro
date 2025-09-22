@@ -1,0 +1,165 @@
+---
+
+---
+
+<section id="proyectos" class="project">
+	<div class="title">
+		<h1>Proyectos</h1>
+		<div class="line"></div>
+		<p class="subtitle">Una selección de mis últimos trabajos</p>
+	</div>
+
+	<div class="projects-container">
+		<div class="card">
+			<img src="/src/assets/telegrambot.webp" />
+			<div class="card-content">
+				<h2>Telegram Bot</h2>
+				<p>
+					(EN PROCESO) Página web para un bot de telegram con Backend
+					y Frontend hecho con NodeJS.
+				</p>
+				<a href="https://github.com/MarkSG06/telegram-bot" class="btn"
+					>Ver más</a
+				>
+			</div>
+		</div>
+		<div class="card">
+			<img src="/src/assets/mcp.webp" />
+			<div class="card-content">
+				<h2>MCP</h2>
+				<p>
+					Proximo proyecto que deseo empezar, me gustaria poder investigar como puedo automatizar tareas con IA.
+				</p>
+				<a href="https://github.com/MarkSG06/telegram-bot" class="btn"
+					>Ver más</a
+				>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	.project {
+		padding: 6rem 2rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 3rem;
+		min-height: 100dvh;
+		background: linear-gradient(180deg, #0f0f14, #141622);
+		color: #e0e0e5;
+	}
+
+	.title {
+		text-align: center;
+		animation: fadeIn 1.2s ease-in-out;
+	}
+
+	.title h1 {
+		font-size: 2.8rem;
+		font-weight: 800;
+		letter-spacing: 1px;
+		color: #fff;
+	}
+
+	.subtitle {
+		margin-top: 0.8rem;
+		font-size: 1.1rem;
+		color: #aaa;
+	}
+
+	.line {
+		margin: 1rem auto 0;
+		background: linear-gradient(90deg, #b24bab, #d96fd9);
+		height: 4px;
+		width: 100px;
+		border-radius: 10px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.projects-container {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 2rem;
+		width: 100%;
+		max-width: 1100px;
+		justify-items: center;
+		justify-content: center;
+	}
+
+	.card {
+		width: 345px;
+		height: 422px;
+		background: #1a1d29;
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 1rem;
+		overflow: hidden;
+		transition:
+			transform 0.3s ease,
+			box-shadow 0.3s ease;
+		box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+	}
+
+	.card:hover {
+		transform: translateY(-6px);
+		box-shadow: 0 10px 22px rgba(178, 75, 171, 0.4);
+	}
+
+	.card img {
+		width: 100%;
+		height: 180px;
+		object-fit: cover;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+	}
+
+	.card-content {
+		padding: 1.5rem;
+		text-align: center;
+	}
+
+	.card-content h2 {
+		font-size: 1.4rem;
+		font-weight: 700;
+		margin-bottom: 0.6rem;
+		color: #fff;
+	}
+
+	.card-content p {
+		font-size: 0.95rem;
+		color: #bbb;
+		margin-bottom: 1.2rem;
+		line-height: 1.5;
+	}
+
+	.btn {
+		display: inline-block;
+		padding: 0.6rem 1.2rem;
+		background: linear-gradient(90deg, #b24bab, #d96fd9);
+		color: #fff;
+		font-size: 0.9rem;
+		font-weight: 600;
+		border-radius: 6px;
+		text-decoration: none;
+		transition: all 0.3s ease;
+	}
+
+	.btn:hover {
+		background: linear-gradient(90deg, #a03f9a, #c05cc4);
+		box-shadow: 0 4px 12px rgba(178, 75, 171, 0.4);
+	}
+
+	/* Animación de entrada */
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+			transform: translateY(30px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+</style>
+
+<script></script>
